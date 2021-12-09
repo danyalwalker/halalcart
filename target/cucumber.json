@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4549616000,
+              "duration": 5226400000,
               "status": "passed"
             },
             "line": 5,
@@ -24,8 +24,324 @@
         ]
       },
       {
-        "start_timestamp": "2021-12-06T19:56:46.460Z",
+        "start_timestamp": "2021-12-09T17:41:10.556Z",
         "line": 7,
+        "name": "",
+        "description": "",
+        "id": "main-page-bottom-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 731052000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on search tab",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_click_on_search_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56956000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to navigate to search page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_should_be_able_to_navigate_to_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1744133000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:16.660Z",
+        "line": 11,
+        "name": "",
+        "description": "",
+        "id": "main-page-bottom-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1100955000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on contact tab",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_click_on_contact_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63996000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should be able to navigate to contact page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_should_be_able_to_navigate_to_contact_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1605698000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:19.580Z",
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "main-page-bottom-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278732000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on terms of service tab",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_click_on_terms_of_service_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55383000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be able to navigate to terms of service page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_should_be_able_to_navigate_to_terms_of_service_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1503997000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:22.526Z",
+        "line": 19,
+        "name": "",
+        "description": "",
+        "id": "main-page-bottom-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1334311000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on refund policy tab",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_click_on_refund_policy_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50438000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be able to navigate to refund policy page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_should_be_able_to_navigate_to_refund_policy_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1689258000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:25.424Z",
+        "line": 23,
+        "name": "",
+        "description": "",
+        "id": "main-page-bottom-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1307835000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on privacy policy tab",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_click_on_privacy_policy_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56816000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should be able to navigate to privacy policy page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageBottomTabs.i_should_be_able_to_navigate_to_privacy_policy_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Main page bottom tabs functionality",
+    "description": "  As a user, when I click on the bottom tabs I should be able to access to these particular item pages.",
+    "id": "main-page-bottom-tabs-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/mainPageBottomTabs.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1647976000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:28.485Z",
+        "line": 8,
         "name": "",
         "description": "",
         "id": "main-page-headers-functionality;",
@@ -34,10 +350,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1473263000,
+              "duration": 1585190000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "I click on the NEMA - Best Prices header",
             "match": {
               "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_nema_best_prices_header()"
@@ -46,10 +362,10 @@
           },
           {
             "result": {
-              "duration": 67861000,
+              "duration": 83016000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I should be able to navigate to NEMA - Best Prices page",
             "match": {
               "location": "us.buyget.step_definitions.MainPageHeaders.i_should_be_able_to_navigate_to_nema_best_prices_page()"
@@ -59,16 +375,1491 @@
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1617097000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:31.816Z",
+        "line": 13,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1639165000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the Fresh \u0026 Frozen Halal Meat header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_fresh_frozen_halal_meat_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21643000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to navigate to Fresh \u0026 Frozen Halal Meat page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_should_be_able_to_navigate_to_fresh_frozen_halal_meat_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2122418000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:35.099Z",
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1860990000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the Best Selling Title",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_best_selling_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74089000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to navigate to Best Selling page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_should_be_able_to_navigate_to_best_selling_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1810785000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:39.162Z",
+        "line": 23,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1178219000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on the Homemade header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_homemade_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66507000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should be able to navigate to Homemade page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_homemade_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1681538000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:42.224Z",
+        "line": 28,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1650573000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the Dairy Products header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_dairy_products_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16077000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should be able to navigate to Dairy Products page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_should_be_able_to_navigate_to_dairy_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1282402000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:45.577Z",
+        "line": 32,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1084820000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the Deli Meat header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_deli_meat_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45343000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should be able to navigate to Deli Meat page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_should_be_able_to_navigate_to_deli_meat_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1376318000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:47.994Z",
+        "line": 36,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1236185000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the Pantry header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_pantry_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117254000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should be able to navigate to Pantry page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_pantry_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1709414000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:50.728Z",
+        "line": 40,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1516745000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on the Beverages header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_beverages_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22203000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should be able to navigate to beverages page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_beverages_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1628688000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:53.980Z",
+        "line": 44,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1631255000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on the Chocolate, Candy \u0026 Snacks header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_chocolate_candy_snacks_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72879000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should be able to navigate to Chocolate, Candy \u0026 Snacks page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_confectionary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1418682000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:41:57.318Z",
+        "line": 48,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1700152000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on the Coffee \u0026 Tea header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_coffee_tea_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14571000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should be able to navigate to coffee-tea page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_coffee_tea_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1522064000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:00.456Z",
+        "line": 52,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 944566000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on the Dried Fruits \u0026 Nuts header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_dried_fruits_nuts_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31574000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should be able to navigate to dried-fruit-nuts page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_dried_fruit_nuts_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 923000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:02.960Z",
+        "line": 56,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1078961000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click on the Breads \u0026 Pastries header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_breads_pastries_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25544000,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I should be able to navigate to breads-pastries page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_breads_pastries_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 845833000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:04.990Z",
+        "line": 60,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1495859000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click on the Frozen header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_frozen_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77032000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I should be able to navigate to frozen page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_frozen_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
           }
         ]
       }
     ],
     "name": "Main page headers functionality",
-    "description": "",
+    "description": "  As a user, when I click on the header title, I should be able to access to these particular title pages.",
     "id": "main-page-headers-functionality",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/mainPageHeaders.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1796804000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:07.413Z",
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1141672000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Homemade tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_homemade_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62122000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be able to navigate to Homemade page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_homemade_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1404033000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:10.444Z",
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1563592000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the Dairy tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_dairy_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82247000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to navigate to Dairy page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_dairy_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1784350000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:13.499Z",
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1301688000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on the Pantry tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_pantry_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122114000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be able to navigate to Pantry page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_pantry_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1428059000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:16.711Z",
+        "line": 20,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2276331000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the Canned Food tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_canned_food_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59598000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should be able to navigate to canned-food page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_canned_food_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1270190000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:20.477Z",
+        "line": 24,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1051867000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the Confectionary tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_confectionary_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36182000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should be able to navigate to Chocolate, Candy \u0026 Snacks page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_confectionary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1280778000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:22.839Z",
+        "line": 28,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1531199000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the Coffee \u0026 Tea tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_coffee_tea_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18381000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should be able to navigate to coffee-tea page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_coffee_tea_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1558194000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:25.673Z",
+        "line": 32,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1431210000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the Dried Fruit \u0026 Nuts tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_dried_fruit_nuts_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102410000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should be able to navigate to dried-fruit-nuts page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_dried_fruit_nuts_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1699570000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:28.768Z",
+        "line": 36,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1590094000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the Beverages  tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_beverages_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2541000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I should be able to navigate to beverages page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_beverages_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1406067000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:32.063Z",
+        "line": 40,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1638163000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on the Breads \u0026 Pastries tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_breads_pastries_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77754000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should be able to navigate to breads-pastries page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_breads_pastries_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1662896000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:35.188Z",
+        "line": 44,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1753159000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on the Brands tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_brands_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30342000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should be able to navigate to brands page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_brands_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1658132000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:38.638Z",
+        "line": 48,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1457827000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on the Frozen tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_frozen_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21553000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I should be able to navigate to frozen page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_frozen_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1489029000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T17:42:41.778Z",
+        "line": 52,
+        "name": "",
+        "description": "",
+        "id": "main-page-top-tabs-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1505234000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on the Enjoying Halalcart tab",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_click_on_the_enjoying_halalcart_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67005000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I should be able to navigate to invite  page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_should_be_able_to_navigate_to_invite_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Main page top tabs functionality",
+    "description": "  As a user, when I click on the top tabs I should be able to access to these particular item pages.",
+    "id": "main-page-top-tabs-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/mainPageTopTabs.feature",
     "tags": []
   }
 ]

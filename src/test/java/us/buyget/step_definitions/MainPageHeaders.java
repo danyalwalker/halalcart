@@ -2,12 +2,11 @@ package us.buyget.step_definitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-
 import us.buyget.pages.MainPage;
 import us.buyget.utilities.BrowserUtils;
 
 public class MainPageHeaders {
-MainPage mainPage = new MainPage();
+    MainPage mainPage = new MainPage();
 
     @When("I click on the NEMA - Best Prices header")
     public void i_click_on_the_nema_best_prices_header() {
@@ -27,7 +26,7 @@ MainPage mainPage = new MainPage();
     }
     @Then("I should be able to navigate to Fresh & Frozen Halal Meat page")
     public void i_should_be_able_to_navigate_to_fresh_frozen_halal_meat_page() {
-        BrowserUtils.assertTitle("Fresh & Frozen Halal Meat – Halalcart");
+        BrowserUtils.assertTitle("Frozen – Halalcart");
     }
 
 
@@ -123,8 +122,6 @@ MainPage mainPage = new MainPage();
     public void i_click_on_the_frozen_header() {
         mainPage.frozenHeader.click();
     }
-
-
 
 
 }
