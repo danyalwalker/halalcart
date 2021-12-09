@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4549616000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the main page",
+            "match": {
+              "location": "us.buyget.step_definitions.mainPageTopTabs.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-06T19:56:46.460Z",
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "main-page-headers-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1473263000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the NEMA - Best Prices header",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_click_on_the_nema_best_prices_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67861000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to navigate to NEMA - Best Prices page",
+            "match": {
+              "location": "us.buyget.step_definitions.MainPageHeaders.i_should_be_able_to_navigate_to_nema_best_prices_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Main page headers functionality",
+    "description": "",
+    "id": "main-page-headers-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/mainPageHeaders.feature",
+    "tags": []
+  }
+]
