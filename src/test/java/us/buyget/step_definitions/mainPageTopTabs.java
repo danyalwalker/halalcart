@@ -9,6 +9,7 @@ import org.junit.Test;
 import us.buyget.pages.MainPage;
 
 import us.buyget.pages.PageBase;
+import us.buyget.utilities.BrowserUtils;
 import us.buyget.utilities.ConfigurationReader;
 import us.buyget.utilities.Driver;
 
@@ -29,7 +30,6 @@ public class mainPageTopTabs extends PageBase {
     public void i_should_be_able_to_navigate_to_homemade_page() {
         String expectedTitle = "Homemade – Halalcart";
         String actualTitle = Driver.getDriver().getTitle();
-        System.out.println(actualTitle);
         Assert.assertTrue(expectedTitle.equals(actualTitle));
     }
 
