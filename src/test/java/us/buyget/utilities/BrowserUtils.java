@@ -36,6 +36,11 @@ public class BrowserUtils {
 
     public static void assertTitle(String expectedTitle){
         String actualTitle = Driver.getDriver().getTitle();
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Assert.assertEquals(expectedTitle,actualTitle);
     }
 
